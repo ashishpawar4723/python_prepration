@@ -1,7 +1,4 @@
-# list compretion
-# onli add two interger  value
-x = int(input())
-y = int(input())
-n = int(input())
-print(list([i,j] for i in range(x+1) for j in range(y+1)   if i+j !=n))
-
+list = [1,4,2]
+list2 = [5,3,7]
+list.append(23)
+print(list)
